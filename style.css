@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 62,5%;
+}
+
+/* ----- NAVIGATION BAR ----- */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.nav-class1 {
+    justify-content: end;
+}
+
+.nav_button {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15,118, 110);
+    border-radius: 5px;
+    height: auto;
+    min-width: 150px;
+    min-height: 30px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_button img {
+    width: 15%; 
+    height: auto;   
+}
+
+.nav_button span {
+    width: 75%;
+    text-align: center;
+}
+
+
+/* ----- MAIN: HEADER ------ */
+
+header {
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 80%;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+}
+
+header a, ul {
+    height: 90%;
+}
+
+header img {
+    height: 100%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    width: 70%;
+}
+
+header ul li:first-of-type {
+    height: 70%;
+}
+
+header ul li {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+header ul h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+header ul h2 {
+    color: rgb(107, 114, 144);
+    font-size: 1.5rem;
+}
+
+/* ----- MAIN ----- */
+
+main {
+    line-height: 2rem;
+    width: 80%;
+}
+
+main section {
+    margin-top: 20px;
+}
+
+main p {
+    font-weight: 700;
+
+}
+
+main a {
+    font-weight: 400;
+}
+
+main span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(15,118, 110);
+    text-decoration: underline;
+    line-height: 4rem;
+}
