@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+
+.grid-setup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45px, 45px));  
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.grid-div {
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

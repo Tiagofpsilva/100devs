@@ -5,6 +5,7 @@ body {
     align-items: center;
     font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 62,5%;
+    max-width: 1920px;
 }
 
 /* ----- NAVIGATION BAR ----- */
