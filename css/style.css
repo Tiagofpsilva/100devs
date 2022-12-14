@@ -60,7 +60,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    width: 80%;
+    width: 90%;
 }
 
 header a {
@@ -108,7 +108,7 @@ header ul h2 {
 
 main {
     line-height: 2rem;
-    width: 80%;
+    width: 90%;
 }
 
 main section {
