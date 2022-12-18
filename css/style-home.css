@@ -31,7 +31,10 @@ header p {
 
 /* ----- MAIN + GRID ----- */
 
+
 .grid-setup {
+    width: 60%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 50px));  
     grid-gap: 10px;
